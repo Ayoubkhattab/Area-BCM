@@ -1,14 +1,17 @@
 import { Component } from '@angular/core';
+import { LoginComponent } from "./Auth/login/login.component";
+import { SignUpComponent } from "./Auth/sign-up/sign-up.component";
+import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'Home',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [LoginComponent, SignUpComponent]
 })
+
 export class AppComponent {
   title = 'Area-BCM';
 }

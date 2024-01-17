@@ -1,0 +1,22 @@
+ <form class="w-full">
+                    <label for="username" class="block text-textColor ">Company name</label>
+                    <input type="text" id="username" name="username" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your company"> 
+                    <label for="username" class="block text-textColor ">Email</label>
+                    <input type="text" id="username" name="username" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your email"> 
+                    <label for="password" class="block text-textColor ">Password</label>
+                    <input type="password" id="password" name="password" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your password">
+
+                     <label for="username" class="block text-textColor ">Industrial area</label>
+                    <input type="text" id="username" name="username" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your email">
+                    <label for="username" class="block text-textColor ">Representative name</label>
+                    <input type="text" id="username" name="username" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your email">
+                    <label for="username" class="block text-textColor ">job title </label>
+                    <input type="text" id="username" name="username" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your email">  
+                    <label for="username" class="block text-textColor ">Phone number</label>
+                    <input type="text" id="username" name="username" class="w-full p-1 border-2 mb-2 rounded-md border-primaryColor focus:outline-none focus:border-blue-500" placeholder="Enter your email">
+                   
+                  
+                    <div class="w-full lg:w-1/3 mx-auto">
+                        <button type="submit" class="bg-primaryColor text-white mt-6 py-2 px-4 rounded-full w-full">SignUp</button>
+                    </div>
+                </form>
